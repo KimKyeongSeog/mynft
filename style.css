@@ -3,8 +3,20 @@
   src: url(./assets/font/DS-DIGI.TTF);
 }
 
+@font-face {
+  font-family: "DNFBitBitv2";
+  font-style: normal;
+  font-weight: 400;
+  src: url("//cdn.df.nexon.com/img/common/font/DNFBitBitv2.otf")
+    format("opentype");
+}
+
 .font-digi {
   font-family: "DS-DIGI";
+}
+
+.font-dnf {
+  font-family: "DNFBitBitv2";
 }
 
 body {
@@ -33,4 +45,35 @@ header {
   justify-content: space-between;
   padding: 16px;
   font-size: 32px;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+}
+
+.quotes {
+  font-size: 30px;
+}
+
+.new-quotes {
+  display: none;
+}
+
+.new-quotes > button {
+  background-color: brown;
+  padding: 8px 16px;
+  margin-left: 8px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.new-quotes-input {
+  border: 1px dotted pink;
+  font-size: 20px;
+  padding: 4px 8px;
+}
+
+.new-quotes:focus {
+  outline: 2px solid pink;
 }
