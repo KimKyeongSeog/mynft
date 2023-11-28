@@ -38,6 +38,14 @@ video {
   margin: auto;
   min-height: 100vh;
   background-color: rgba(255, 255, 255, 0.35);
+  flex: auto;
+  align-items: center;
+  justify-items: center;
+}
+
+main {
+  text-align: center;
+  color: aliceblue;
 }
 
 header {
@@ -50,6 +58,13 @@ header {
 button {
   border: 0;
   background-color: transparent;
+}
+
+.nft-img {
+  width: 800px;
+  height: 800px;
+  padding-left: 240px;
+  margin-bottom: 20px;
 }
 
 .quotes {
